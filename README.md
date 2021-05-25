@@ -13,7 +13,7 @@
   - 该数据集是关于葡萄酒评价的数据，共有三个数据文件:
     - winemag-data-130k-v2.csv：包含10列和130k行关于葡萄酒的评价
     - winemag-data_first150k.csv：包含10列和150k行关于葡萄酒的评价
-    - winemag-data-130k-v2.json：保护6919个关于葡萄酒评价的节点
+    - winemag-data-130k-v2.json：包含6919个关于葡萄酒评价的节点
   - 本次数据挖掘试验选取的是winemag-data_first150k.csv数据
 - [MLB Pitch Data 2015-2018](https://www.kaggle.com/pschale/mlb-pitch-data-20152018)
   - 该数据集是美国职业棒球大联盟的数据，共有五个数据文件：
@@ -50,4 +50,27 @@
 数据分析报告由Jupyter Notebook组织
 
 **作业报告**：[DataMiningAssginment1.ipynb](./DataMiningAssginment1.ipynb)
+
+## 作业2：频繁模式与关联规则挖掘
+
+### 1. 数据集选择
+
+[Wine Reviews](https://www.kaggle.com/zynicide/wine-reviews)：
+
+- 该数据集是关于葡萄酒评价的数据，共有三个数据文件:
+  - winemag-data-130k-v2.csv：包含10列和130k行关于葡萄酒的评价
+  - winemag-data_first150k.csv：包含10列和150k行关于葡萄酒的评价
+  - winemag-data-130k-v2.json：包含6919个关于葡萄酒评价的节点
+- 本次数据挖掘试验选取的是winemag-data-130k-v2.csv数据
+
+### 2. 数据分析要求
+
+- 对数据集进行处理，转换为适合进行关联规则挖掘的形式
+- 找出频繁模式
+- 导出关联规则，计算其支持度和置信度
+- 对规则进行评价，使用Lift、卡方和其他教材中提到的指标，至少2种
+- 对挖掘结果进行分析
+- 可视化展示
+
+
 
