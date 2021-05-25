@@ -49,5 +49,5 @@
 
 数据分析报告由Jupyter Notebook组织
 
-**作业报告**：[DataMiningAssginment1.ipynb](./DataMiningHomework1.ipynb)
+**作业报告**：[DataMiningAssginment1.ipynb](./DataMiningAssginment1.ipynb)
 
